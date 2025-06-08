@@ -23,7 +23,7 @@ When you’re happy with your solution, send us a link to your repo. If you don�
 - @massimoalbarello
 
 # My solution
-## Solution overview (added by <your-name>)
+## Solution overview (added by Mojmír Horváth)
 
 We embed **both** user search queries and catalog items with the
 `all-MiniLM-L6-v2` Sentence-Transformer and recommend the products whose
