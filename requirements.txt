@@ -1,0 +1,7 @@
+sentence-transformers
+tqdm
+nltk
+pandas
+scikit-learn
+matplotlib
+pandas

@@ -21,3 +21,24 @@ When you’re happy with your solution, send us a link to your repo. If you don�
 
 - @jskerman
 - @massimoalbarello
+
+# My solution
+## Solution overview (added by <your-name>)
+
+We embed **both** user search queries and catalog items with the
+`all-MiniLM-L6-v2` Sentence-Transformer and recommend the products whose
+**maximum** cosine similarity across *any* of the customer’s searches is
+highest.  This one-to-many scoring lets a single highly relevant query
+surface niche items even if the rest of the history is noisy.
+
+The notebook:
+1. Cleans and embeds searches & descriptions.
+2. Computes a full query×product similarity matrix.
+3. Surfaces the top-12 items and a bar-chart of their scores.
+
+All outputs are baked into the notebook so the reviewer can read it
+without re-running heavy models.
+## Installation
+```bash
+pip install -r requirements.txt
+```
